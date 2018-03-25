@@ -14,10 +14,8 @@ def lerArquivo():
 
         if resultadoEvalue < Hsp['Hsp_evalue']:
             resultadoEvalue = Hsp['Hsp_evalue']
-        # print 'SCORE: ', Hsp['Hsp_score']
-        # print 'EVALUE: ', Hsp['Hsp_evalue']
-    print resultadoScore
-    print resultadoEvalue 
+    print 'SCORE: ', resultadoScore
+    print 'E-VALUE: ', resultadoEvalue 
 
 
 if __name__=="__main__":
